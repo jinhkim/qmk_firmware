@@ -1,9 +1,9 @@
-![60_ansi DZ60 base layer](https://i.imgur.com/MqBLh3D.png)
+# Coffee House Layout
 
-![60_ansi DZ60 fn layer](https://i.imgur.com/ml1djHi.png)
+This is a basic keymap for the coffee house keyboard based on a DZ60 layout,
+except the default and Fn layer are very similar to a POK3R.
 
-# 60_ansi DZ60 Layout
+The default layer is normal ANSI and the Fn layer has the other keys.
 
-This is a basic keymap for the 60_ansi layout of the DZ60.
-The default layer is normal ANSI and the Fn layer is used for RGB
-and backlighting functions.
+The Fn2 layer contains the RGB and backlight controls, which happen to be the
+exact same key combinations as the default DZ60 layout.
