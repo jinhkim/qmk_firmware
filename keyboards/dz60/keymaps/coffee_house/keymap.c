@@ -32,3 +32,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 				_______,_______,_______,                _______,                        _______,_______,_______,_______),
 };
 
+void led_set_user(uint8_t usb_led) {
+	// force Caps Lock LED to always be on
+        DDRB |= (1 << 2);
+        PORTB &= ~(1 << 2);
+}
