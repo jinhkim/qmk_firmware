@@ -32,8 +32,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 				_______,_______,_______,                _______,                        _______,_______,_______,_______),
 };
 
-void led_set_user(uint8_t usb_led) {
+// uncomment below code to always enable Caps Lock LED; not recommended to do
+// because Caps Lock LED cannot dim, can only shine at full brightness. This is
+// inconsistent with the rest of the LEDs which CAN dim.
+/*void led_set_user(uint8_t usb_led) {
 	// force Caps Lock LED to always be on
         DDRB |= (1 << 2);
         PORTB &= ~(1 << 2);
-}
+}*/
