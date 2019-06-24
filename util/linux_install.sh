@@ -49,7 +49,8 @@ elif grep ID /etc/os-release | grep -qE 'debian|ubuntu'; then
 		libnewlib-arm-none-eabi \
 		unzip \
 		wget \
-		zip
+		zip \
+		arduino
 
 elif grep ID /etc/os-release | grep -q 'arch\|manjaro'; then
 	# install avr-gcc 8.1 until 8.3 is available. See #3657 for details of the bug.
