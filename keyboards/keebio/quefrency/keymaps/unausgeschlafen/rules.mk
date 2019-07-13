@@ -1,1 +1,1 @@
-BOOTLOADER = atmel-dfu # comment this line if you use arduinos
+#BOOTLOADER = atmel-dfu # comment this line if you use arduinos
