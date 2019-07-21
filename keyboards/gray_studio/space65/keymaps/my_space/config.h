@@ -17,3 +17,12 @@
 #pragma once
 
 // place overrides here
+#ifdef PRODUCT
+#undef PRODUCT
+#define PRODUCT         MySpace65
+#endif
+
+#ifdef DESCRIPTION
+#undef DESCRIPTION
+#define DESCRIPTION     Inspired by the Voyager I space probe and the Applie II home computer
+#endif
