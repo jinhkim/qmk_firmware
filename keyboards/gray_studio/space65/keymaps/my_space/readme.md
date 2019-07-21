@@ -1,1 +1,1 @@
-# The default keymap for space65
+# My keymap for space65
