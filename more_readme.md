@@ -15,4 +15,5 @@ make [MAKE]/[MODEL]:[LAYOUT]:[FLASHTOOL]
 e.g.
 ```
 make keebio/quefrency:myfrency:dfu
+make dz60:coffee_house:dfu
 ```
